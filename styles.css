@@ -2,13 +2,62 @@
 body {
     text-align: center;
     display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
     height: 100vh;
     width: 100vw;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    animation: grow-and-shrink 4000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: .5em;
+    font-family: 'Nunito Sans', sans-serif;
+    color: darkslategrey;
+    border-radius: 10px;
+    text-shadow: #285616;
+    margin-bottom: 1em;
+  }
+  @keyframes grow-and-shrink {
+    0% {
+      transform: scale(1.08);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: darkslategrey;
+
+}
+
+.select {
+    margin-bottom: 1.5em;
+    padding: .25em;
+    font-size: larger;
+    background-color: darkslategrey;
+    color: #ffffff;
+    min-width: 8em;
+}
+
+.button {
+    margin-bottom: 1.5em;
+    margin-left: .5em;
+    padding: .25em;
+    font-size: larger;
+    background-color: darkslategrey;
+    color: #ffffff;
+    min-width: 5em;
 }
 
 .container {
@@ -16,13 +65,13 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	align-content: center;
+    contain: content;
     border-style: solid;
-    border-color: blueviolet;
-    background-color: black ;
-    height: 36em;
-    width: 36em;
+    background-color: darkslategrey;
+    height: 37em;
+    width: 37em;
 }
 
 .square {
@@ -37,6 +86,18 @@ body {
     border-style: solid;
   }
 
+  .lilsquare {
+    display: flex;
+    width: 3.3em;
+    height: 3.3em;
+    justify-content: center;
+    flex-direction: column;
+    border-spacing: 1px;
+    background-color: #ffffff;
+    border-color: #285616;
+    border-style: solid;
+  }
+
 .hover2 {
-    background-color: blue;
+    background-color: teal;
 }
