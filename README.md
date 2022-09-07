@@ -14,9 +14,11 @@
 ## Product Walk-through
 
 ![start-stop](https://user-images.githubusercontent.com/92649050/188781649-f79f9590-3cec-4ff8-90e2-244402667422.gif)
+
 Click start button to allow color change on hover, stop to disable this function and resume to continue!
 
 ![more-rows](https://user-images.githubusercontent.com/92649050/188781663-504ef2ff-9df1-4d78-ba71-c1515058d054.gif)
+
 Choose Between 5x5 grid or 10x10 grid sizes!
 
 
