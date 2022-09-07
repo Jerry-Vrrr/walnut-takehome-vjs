@@ -1,0 +1,42 @@
+
+body {
+    text-align: center;
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: black ;
+    height: 36em;
+    width: 36em;
+}
+
+.square {
+    display: flex;
+    width: 7em;
+    height: 7em;
+    justify-content: center;
+    flex-direction: column;
+    border-spacing: 1px;
+    background-color: #ffffff;
+    border-color: #285616;
+    border-style: solid;
+  }
+
+.hover2 {
+    background-color: blue;
+}
