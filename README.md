@@ -8,7 +8,7 @@
 - Fast turnaround time
 
 ## Challenges
-- I almost mistook the instructions and created a React app instead of a Vanilla JS app. (Glad I asked that clarifying question before coding)
+- I nearly mistook the instructions and created a React app instead of a Vanilla JS app. (Glad I asked that clarifying question before coding)
 - It had been quite sometime writing a basic JS,  HTML , CSS app, but it was like riding a bike and only took a little poking around to remember everything. 
 
 ## Product Walk-through
